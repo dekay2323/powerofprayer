@@ -11,4 +11,5 @@ http://docs.phonegap.com/getting-started/
 ## Usage
 
 ## Screenshot Firefox
-[[Screenshot-2018-2-17 Framework7.png]]
+![Alt text](/Screenshot-2018-2-17 Framework7.png?raw=true "Optional Title")
+
