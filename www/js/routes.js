@@ -474,7 +474,7 @@ var routes = [
   },
   {
     path: '/home/',
-    url: './pages/home.html',
+    componentUrl: './pages/home.html',
   },
 
   // Default route (404 page). MUST BE THE LAST
