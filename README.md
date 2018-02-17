@@ -11,6 +11,6 @@ http://docs.phonegap.com/getting-started/
 ## Usage
 
 ## Screenshot Firefox
-(imf/firefox.png)
+(/img/firefox.png)
 
 
