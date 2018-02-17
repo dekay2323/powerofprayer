@@ -1,29 +1,14 @@
-# Framework7 PhoneGap Application 
+# Framework7 PhoneGap Application with Kitchen Sink
 
-> [Framework7](http://www.idangero.us/framework7) is a Mobile UI framework that can be used to build hybrid apps with PhoneGap. This template allows you to get started using Framework7 
-  quickly. 
-  
-  For a more extensive Framework7 sample, see the [one included in their Github project](https://github.com/nolimits4web/Framework7/tree/master/dist)
-  or the [demo apps on their website](http://www.idangero.us/framework7/apps/#.VpQCc5MrKjQ).
-    
-  Also, for an intro to Framework7, check out [this post on the PhoneGap blog](http://phonegap.com/blog/2015/11/30/framework7/).   
+> Shows most of the components for Framework7 in a single app. A easy starting point for developing a single application that can run in a browser or on phones.
 
+https://framework7.io/docs/introduction.html
+
+https://github.com/framework7io/framework7/tree/master/kitchen-sink
+
+http://docs.phonegap.com/getting-started/
 
 ## Usage
-    
-### PhoneGap CLI
 
-    $ phonegap create my-app --template phonegap-template-framework7
-
-### Cordova CLI
-
-    $ cordova create my-app --template phonegap-template-framework7
-    
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
-
-  
+## Screenshot Firefox
+[[Screenshot-2018-2-17 Framework7.png]]
