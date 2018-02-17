@@ -9,3 +9,6 @@ https://github.com/framework7io/framework7/tree/master/kitchen-sink
 http://docs.phonegap.com/getting-started/
 
 ## Usage
+
+## Screenshot Firefox
+https://screenshots.firefox.com/BNw1uXrIMFVY854s/192.168.0.181
