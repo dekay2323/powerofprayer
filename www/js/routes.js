@@ -14,6 +14,10 @@ var routes = [
     path: '/calendar/',
     componentUrl: './pages/calendar.html',
   },
+  {
+    path: '/available/',
+    componentUrl: './pages/available.html',
+  },
 
   // Default route (404 page). MUST BE THE LAST
   {
