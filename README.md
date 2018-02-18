@@ -1,14 +1,7 @@
-# Framework7 PhoneGap Application with Kitchen Sink
+# Power of Prayer
 
-> Shows most of the components for Framework7 in a single app. A easy starting point for developing a single application that can run in a browser or on phones.
+> Use this social application to Power your Prayers.
+Each person praying exponentially increases the power.
+Pray for people from the calendar or request your own Prayer.
 
 https://framework7.io/docs/introduction.html
-
-https://github.com/framework7io/framework7/tree/master/kitchen-sink
-
-http://docs.phonegap.com/getting-started/
-
-## Usage
-
-## Screenshot Firefox
-![Alt text]("/Screenshot-2018-2-17 Framework7.png?raw=true" "Optional Title")
