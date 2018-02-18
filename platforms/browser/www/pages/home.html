@@ -8,15 +8,15 @@
             <span class="ios-only">Back</span>
           </a>
         </div>
-        <div class="title navbar-calendar-title"></div>
+        <div class="title">Prayer Schedule</div>
       </div>
     </div>
     <div class="page-content">
+      <!-- Calendar  -->
       <div id="calendar" class="block block-strong no-padding no-margin no-hairline-top"></div>
       <div id="calendar-events" class="list no-margin no-hairlines no-ios-left-edge">
         <ul></ul>
       </div>
-    </div>
   </div>
 </template>
 <style>
@@ -128,21 +128,15 @@
         var monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August' , 'September' , 'October', 'November', 'December'];
         self.calendar = app.calendar.create({
           containerEl: '#calendar',
-          toolbar: false,
+          toolbar: true,
           value: [self.today],
           events: self.events.map(function (event) {
             return new Date(event.date.getFullYear(), event.date.getMonth(), event.date.getDate());
           }),
           on: {
             init: function (calendar) {
-              $('.navbar-calendar-title').text(monthNames[calendar.currentMonth] +', ' + calendar.currentYear);
-              app.navbar.size(page.navbarEl);
-              calendar.$el.addClass('no-ios-right-edge');
-              self.renderEvents(calendar);
             },
             monthYearChangeStart: function (calendar) {
-              $('.navbar-calendar-title').text(monthNames[calendar.currentMonth] +', ' + calendar.currentYear);
-              app.navbar.size(page.navbarEl);
             },
             change: function (calendar) {
               self.renderEvents(calendar);
